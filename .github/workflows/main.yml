@@ -1,0 +1,128 @@
+name: Build for Android
+
+on: [workflow_dispatch]
+
+jobs:
+  buildForAndroidPlatform:
+    name: Build for ${{ matrix.targetPlatform }} on ${{ matrix.unityVersion }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        unity-version:
+          - 2021.3.22f1
+        os:
+          - ubuntu-latest
+        targetPlatform:
+          - Android # Build an Android .apk standalone app.
+        sdkVersion:
+          - AndroidApiLevel33
+    steps:
+      ###########################
+      #          Disk           #
+      ###########################
+      - uses: jlumbroso/free-disk-space@v1.3.1
+
+      ###########################
+      #        Checkout         #
+      ###########################
+      - uses: actions/checkout@v4
+
+      ###########################
+      #         Cache           #
+      ###########################
+      - uses: actions/cache@v3
+        with:
+          path: Library
+          key: Library-${{ matrix.targetPlatform }}
+
+      ###########################
+      #          Build          #
+      ###########################
+      - uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          targetPlatform: ${{ matrix.targetPlatform }}
+          androidExportType: androidAppBundle
+          androidKeystoreName: user # This file won't exist, but this property needs to exist.
+          androidKeystoreBase64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          androidKeystorePass: ${{ secrets.ANDROID_KEYSTORE_PASS }}
+          androidKeyaliasName: ${{ secrets.ANDROID_KEYALIAS_NAME }}
+          androidKeyaliasPass: ${{ secrets.ANDROID_KEYALIAS_PASS }}
+          androidTargetSdkVersion: ${{ matrix.sdkVersion }}
+   
+      ###########################
+      #     Upload artifact     #
+      ###########################
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Build-${{ matrix.targetPlatform }}
+          path: build/${{ matrix.targetPlatform }}
+
+  releaseToGooglePlay:
+    name: Release to the Google Play Store
+    runs-on: ${{ matrix.os }}
+    needs: buildForAndroidPlatform
+    env:
+      GOOGLE_PLAY_KEY_FILE: ${{ secrets.GOOGLE_PLAY_KEY_FILE }}
+      GOOGLE_PLAY_KEY_FILE_PATH:
+        ${{ format('{0}/fastlane/google-fastlane.json', github.workspace) }}
+      ANDROID_BUILD_FILE_PATH: ${{ format('{0}/build/Android/Android.aab', github.workspace) }}
+      ANDROID_PACKAGE_NAME: ${{ secrets.ANDROID_PACKAGE_NAME }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - ubuntu-latest
+        targetPlatform:
+          - Android # Build an Android .apk standalone app.
+    steps:
+      ###########################
+      #        Checkout         #
+      ###########################
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      #################################
+      #   Download Android Artifact   #
+      #################################
+      - name: Download Android Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: Build-${{ matrix.targetPlatform }}
+          path: build/${{ matrix.targetPlatform }}
+
+      ###########################
+      #   Add Authentication    #
+      ###########################
+      - name: Add Authentication
+        run: echo "$GOOGLE_PLAY_KEY_FILE" > $GOOGLE_PLAY_KEY_FILE_PATH
+
+      ###########################
+      #     Set up Fastlane     #
+      ###########################
+      - name: Set up Fastlane
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2
+          bundler-cache: true
+
+      ######################################
+      #   Upload to Google Play Internal   #
+      ######################################
+      - name: Upload to Google Play Internal
+        uses: maierj/fastlane-action@v3.0.0
+        with:
+          lane: 'android internal' # Change to upload to a different lane
+
+      ####################################
+      #  Cleanup to avoid storage limit  #
+      ####################################
+      - name: Cleanup to avoid storage limit
+        if: always()
+        uses: geekyeggo/delete-artifact@v2
+        with:
+          name: Build-${{ matrix.targetPlatform }}

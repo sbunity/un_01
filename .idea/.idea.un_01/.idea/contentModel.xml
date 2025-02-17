@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Core" t="Include">
+          <e p="AdditionalCheck" t="Include">
+            <e p="Prefabs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="AdditionalCheck.cs" t="Include" />
+              <e p="AppState.cs" t="Include" />
+              <e p="Constants.cs" t="Include" />
+              <e p="Content.cs" t="Include" />
+            </e>
+          </e>
+          <e p="AppInstallTracker" t="Include">
+            <e p="AppInstallTracker.cs" t="Include" />
+          </e>
+          <e p="Debugger" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Debugger.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Extension" t="Include">
+            <e p="SceneAttribute" t="Include">
+              <e p="Editor" t="Include">
+                <e p="SceneDrawer.cs" t="Include" />
+              </e>
+              <e p="SceneAttribute.cs" t="Include" />
+            </e>
+          </e>
+          <e p="InternetConnectionMonitor" t="Include">
+            <e p="Prefabs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="InternetConnectionMonitor.cs" t="Include" />
+            </e>
+            <e p="Sprites" t="Include" />
+          </e>
+          <e p="OneSignal" t="Include">
+            <e p="Prefabs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="OneSignalInitialize.cs" t="Include" />
+            </e>
+          </e>
+          <e p="PP&amp;Terms" t="Include">
+            <e p="Prefabs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="ButtonClickListener.cs" t="Include" />
+              <e p="ShowPage.cs" t="Include" />
+            </e>
+            <e p="Sprites" t="Include" />
+          </e>
+          <e p="Preloader" t="Include">
+            <e p="Prefabs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="CirclePreloder.cs" t="Include" />
+              <e p="Preloader.cs" t="Include" />
+            </e>
+            <e p="Sprites" t="Include" />
+          </e>
+          <e p="Remote Config" t="Include">
+            <e p="Prefabs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="RemoteConfig.cs" t="Include" />
+            </e>
+          </e>
+          <e p="SceneLoaderCore" t="Include">
+            <e p="Example" t="Include">
+              <e p="Scenes" t="Include" />
+            </e>
+            <e p="Prefabs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Fade" t="Include">
+                <e p="UIFader.cs" t="Include" />
+              </e>
+              <e p="GUI" t="Include">
+                <e p="ButtonClickHandler.cs" t="Include" />
+                <e p="FadeContentEnabler.cs" t="Include" />
+                <e p="GoToSceneButton.cs" t="Include" />
+                <e p="RectTransformUtils.cs" t="Include" />
+              </e>
+              <e p="Helpers" t="Include">
+                <e p="SceneLoader.cs" t="Include" />
+              </e>
+              <e p="Logo" t="Include">
+                <e p="LogoScript.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Settings" t="Include">
+            <e p="Resources" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Settings.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Uni WebView" t="Include">
+            <e p="Prefabs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="AgreeTerms.cs" t="Include" />
+              <e p="WVController.cs" t="Include" />
+            </e>
+            <e p="Sprites" t="Include" />
+          </e>
+        </e>
+        <e p="Editor" t="Include">
+          <e p="UniWebView" t="Include" />
+        </e>
+        <e p="Editor Default Resources" t="Include">
+          <e p="Firebase" t="Include" />
+        </e>
+        <e p="ExternalDependencyManager" t="Include">
+          <e p="Editor" t="Include">
+            <e p="1.2.183" t="Include" />
+            <e p="external-dependency-manager_version-1.2.183_manifest.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Firebase" t="Include">
+          <e p="Editor" t="Include">
+            <e p="AnalyticsDependencies.xml" t="Include" />
+            <e p="AppDependencies.xml" t="Include" />
+            <e p="FirebaseAnalytics_version-12.3.0_manifest.txt" t="Include" />
+            <e p="FirebaseRemoteConfig_version-12.3.0_manifest.txt" t="Include" />
+            <e p="RemoteConfigDependencies.xml" t="Include" />
+          </e>
+          <e p="m2repository" t="Include">
+            <e p="com" t="Include">
+              <e p="google" t="Include">
+                <e p="Firebase" t="Include">
+                  <e p="firebase-analytics-unity" t="Include">
+                    <e p="12.3.0" t="Include" />
+                    <e p="maven-metadata.xml" t="Include" />
+                  </e>
+                  <e p="firebase-app-unity" t="Include">
+                    <e p="12.3.0" t="Include" />
+                    <e p="maven-metadata.xml" t="Include" />
+                  </e>
+                  <e p="firebase-config-unity" t="Include">
+                    <e p="12.3.0" t="Include" />
+                    <e p="maven-metadata.xml" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Plugins" t="Include">
+            <e p="iOS" t="Include" />
+          </e>
+        </e>
+        <e p="Fonts" t="Include" />
+        <e p="google-services.json" t="Include" />
+        <e p="Icons" t="Include" />
+        <e p="Names" t="Include">
+          <e p="SceneName.cs" t="Include" />
+        </e>
+        <e p="OneSignal" t="Include">
+          <e p="Attribution" t="Include">
+            <e p="OneSignal.UnityPackage.Attribution.asmdef" t="Include" />
+            <e p="OneSignalVSAttribution.cs" t="Include" />
+            <e p="VSAttribution.cs" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="OneSignal.UnityPackage.Editor.asmdef" t="Include" />
+            <e p="OneSignalBootstrapper.cs" t="Include" />
+            <e p="OneSignalFileInventory.cs" t="Include" />
+            <e p="PackageManagement" t="Include">
+              <e p="Dependency.cs" t="Include" />
+              <e p="Manifest.cs" t="Include" />
+              <e p="ScopeRegistry.cs" t="Include" />
+            </e>
+            <e p="Resources" t="Include" />
+            <e p="Setup" t="Include">
+              <e p="OneSignalSetupStep.cs" t="Include" />
+              <e p="OneSignalSetupWindow.cs" t="Include" />
+            </e>
+            <e p="SetupSteps" t="Include">
+              <e p="CleanUpLegacyStep.cs" t="Include" />
+              <e p="ImportPackagesStep.cs" t="Include" />
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="MiniJSON.cs" t="Include" />
+              <e p="ReflectionHelpers.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Example" t="Include">
+            <e p="OneSignal.UnityPackage.Example.asmdef" t="Include" />
+            <e p="OneSignalExampleBehaviour.cs" t="Include" />
+          </e>
+          <e p="link.xml" t="Include" />
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Android" t="Include">
+            <e p="FirebaseApp.androidlib" t="Include">
+              <e p="AndroidManifest.xml" t="Include" />
+              <e p="res" t="Include">
+                <e p="Values" t="Include">
+                  <e p="google-services.xml" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="OneSignalConfig.androidlib" t="Include">
+              <e p="AndroidManifest.xml" t="Include" />
+              <e p="src" t="Include">
+                <e p="main" t="Include">
+                  <e p="res" t="Include">
+                    <e p="drawable-hdpi" t="Include" />
+                    <e p="drawable-mdpi" t="Include" />
+                    <e p="drawable-xhdpi" t="Include" />
+                    <e p="drawable-xxhdpi" t="Include" />
+                    <e p="drawable-xxxhdpi" t="Include" />
+                    <e p="raw" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Imgs" t="Include" />
+              </e>
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModuleEPOOutline.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="README.txt" t="Include" />
+            </e>
+          </e>
+          <e p="iOS" t="Include">
+            <e p="Firebase" t="Include" />
+          </e>
+          <e p="tvOS" t="Include">
+            <e p="Firebase" t="Include" />
+          </e>
+          <e p="UniWebView.bundle" t="Include">
+            <e p="Contents" t="Include">
+              <e p="_CodeSignature" t="Include" />
+              <e p="MacOS" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Prefabs" t="Include" />
+        <e p="Resources" t="Include" />
+        <e p="Scenes" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="Controllers" t="Include">
+            <e p="ClassicGame" t="Include">
+              <e p="StartAnimBalloonController.cs" t="Include" />
+            </e>
+            <e p="CollectGame" t="Include">
+              <e p="SpawnController.cs" t="Include" />
+            </e>
+            <e p="CollectionGame" t="Include">
+              <e p="CollectionBaloonController.cs" t="Include" />
+              <e p="SpawnBaloonController.cs" t="Include" />
+            </e>
+            <e p="General" t="Include">
+              <e p="AbstractAnimController.cs" t="Include" />
+              <e p="BaloonsController.cs" t="Include" />
+              <e p="CloudsController.cs" t="Include" />
+              <e p="HorizontalMovementAnimController.cs" t="Include" />
+              <e p="VerticalAnimBetweenTwoPointsController.cs" t="Include" />
+              <e p="VerticalMovementAnimController.cs" t="Include" />
+            </e>
+            <e p="Scenes" t="Include">
+              <e p="AbstractSceneController.cs" t="Include" />
+              <e p="ClassicGameSceneController.cs" t="Include" />
+              <e p="CollectionGameSceneController.cs" t="Include" />
+              <e p="CollectSceneController.cs" t="Include" />
+              <e p="InitSceneController.cs" t="Include" />
+              <e p="MenuSceneController.cs" t="Include" />
+              <e p="OnBoardingSceneController.cs" t="Include" />
+              <e p="SettingsSceneController.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Enums" t="Include">
+            <e p="AudioNames.cs" t="Include" />
+          </e>
+          <e p="Models" t="Include">
+            <e p="ClassicGameModel.cs" t="Include" />
+            <e p="CollectGame" t="Include">
+              <e p="SpawnModel.cs" t="Include" />
+            </e>
+            <e p="CollectGameModel.cs" t="Include" />
+            <e p="CollectionGame" t="Include">
+              <e p="SpawnModel.cs" t="Include" />
+            </e>
+            <e p="CollectionGameModel.cs" t="Include" />
+            <e p="OnboardingModel.cs" t="Include" />
+          </e>
+          <e p="SO" t="Include">
+            <e p="SceneSounds.cs" t="Include" />
+          </e>
+          <e p="Sounds" t="Include">
+            <e p="MusicController.cs" t="Include" />
+            <e p="SoundsController.cs" t="Include" />
+            <e p="SoundsStates.cs" t="Include" />
+          </e>
+          <e p="Values" t="Include">
+            <e p="Wallet.cs" t="Include" />
+          </e>
+          <e p="Views" t="Include">
+            <e p="ClassicGame" t="Include">
+              <e p="BaloonScallerView.cs" t="Include" />
+              <e p="BetView.cs" t="Include" />
+              <e p="CoefficientUpdaterView.cs" t="Include" />
+              <e p="LosePanel.cs" t="Include" />
+              <e p="WinPanel.cs" t="Include" />
+            </e>
+            <e p="CollectGame" t="Include">
+              <e p="BaloonView.cs" t="Include" />
+              <e p="PrizeUpdaterView.cs" t="Include" />
+            </e>
+            <e p="CollectionGame" t="Include">
+              <e p="BaloonView.cs" t="Include" />
+              <e p="CollectionItemView.cs" t="Include" />
+              <e p="CollectionPanel.cs" t="Include" />
+              <e p="ProgressView.cs" t="Include" />
+              <e p="ResultPanel.cs" t="Include" />
+            </e>
+            <e p="General" t="Include">
+              <e p="PanelView.cs" t="Include" />
+            </e>
+            <e p="Menu" t="Include">
+              <e p="GameBtnView.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="SO" t="Include" />
+        <e p="Sounds" t="Include" />
+        <e p="Sprites" t="Include">
+          <e p="Backgrounds" t="Include" />
+          <e p="Baloons" t="Include">
+            <e p="Big" t="Include" />
+            <e p="Small" t="Include" />
+          </e>
+          <e p="Examples" t="Include" />
+          <e p="Game" t="Include">
+            <e p="CollectionIcons" t="Include">
+              <e p="Active" t="Include" />
+              <e p="Disable" t="Include" />
+            </e>
+            <e p="Icons" t="Include" />
+            <e p="Splatters" t="Include" />
+          </e>
+          <e p="General" t="Include">
+            <e p="Clouds" t="Include" />
+          </e>
+          <e p="Menu" t="Include" />
+          <e p="Preloader" t="Include" />
+          <e p="Settings" t="Include" />
+        </e>
+        <e p="StreamingAssets" t="Include">
+          <e p="google-services-desktop.json" t="Include" />
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Documentation" t="Include" />
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="Fonts &amp; Materials" t="Include" />
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Sprite Assets" t="Include" />
+            <e p="Style Sheets" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+            <e p="EmojiOne.json" t="Include" />
+          </e>
+        </e>
+        <e p="Thirdparty" t="Include">
+          <e p="CrystalFramework" t="Include">
+            <e p="Utility" t="Include">
+              <e p="Demos" t="Include">
+                <e p="SafeAreaDemo.cs" t="Include" />
+                <e p="SafeAreaDemo.txt" t="Include" />
+              </e>
+              <e p="SafeArea.cs" t="Include" />
+            </e>
+          </e>
+          <e p="PlayerPrefsEditor" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Mac" t="Include">
+                <e p="Plist.cs" t="Include" />
+              </e>
+              <e p="PlayerPrefsEditor.cs" t="Include" />
+            </e>
+            <e p="PlayerPrefsUtility.cs" t="Include" />
+            <e p="README.txt" t="Include" />
+            <e p="SimpleEncryption.cs" t="Include" />
+          </e>
+        </e>
+        <e p="UniWebView" t="Include">
+          <e p="Demo" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="AndroidManifest.cs" t="Include" />
+            <e p="BuildGradle.cs" t="Include" />
+            <e p="GradleProperty.cs" t="Include" />
+            <e p="UniWebView-CSharp.Editor.asmdef" t="Include" />
+            <e p="UniWebViewEditorSettings.cs" t="Include" />
+            <e p="UniWebViewPostBuildProcessor.cs" t="Include" />
+          </e>
+          <e p="Interface" t="Include">
+            <e p="UniWebViewAndroid.cs" t="Include" />
+            <e p="UniWebViewAndroidStaticListener.cs" t="Include" />
+            <e p="UniWebViewCocoa.cs" t="Include" />
+            <e p="UniWebViewPlaceholder.cs" t="Include" />
+          </e>
+          <e p="Prefab" t="Include" />
+          <e p="README.txt" t="Include" />
+          <e p="Script" t="Include">
+            <e p="External" t="Include">
+              <e p="MiniJSON.cs" t="Include" />
+            </e>
+            <e p="UniWebView.cs" t="Include" />
+            <e p="UniWebViewAuthentication" t="Include">
+              <e p="UniWebViewAuthenticationCommonFlow.cs" t="Include" />
+              <e p="UniWebViewAuthenticationFlow.cs" t="Include" />
+              <e p="UniWebViewAuthenticationFlowCustomize.cs" t="Include" />
+              <e p="UniWebViewAuthenticationFlowDiscord.cs" t="Include" />
+              <e p="UniWebViewAuthenticationFlowFacebook.cs" t="Include" />
+              <e p="UniWebViewAuthenticationFlowGitHub.cs" t="Include" />
+              <e p="UniWebViewAuthenticationFlowGoogle.cs" t="Include" />
+              <e p="UniWebViewAuthenticationFlowLine.cs" t="Include" />
+              <e p="UniWebViewAuthenticationFlowTwitter.cs" t="Include" />
+              <e p="UniWebViewAuthenticationSession.cs" t="Include" />
+              <e p="UniWebViewAuthenticationStandardToken.cs" t="Include" />
+              <e p="UniWebViewAuthenticationUtils.cs" t="Include" />
+            </e>
+            <e p="UniWebViewCacheMode.cs" t="Include" />
+            <e p="UniWebViewChannelMethod" t="Include">
+              <e p="UniWebViewChannelMethodHandleRequest.cs" t="Include" />
+              <e p="UniWebViewChannelMethodManager.cs" t="Include" />
+            </e>
+            <e p="UniWebViewContentInsetAdjustmentBehavior.cs" t="Include" />
+            <e p="UniWebViewDownloadMatchingType.cs" t="Include" />
+            <e p="UniWebViewEmbeddedToolbar.cs" t="Include" />
+            <e p="UniWebViewHelper.cs" t="Include" />
+            <e p="UniWebViewLogger.cs" t="Include" />
+            <e p="UniWebViewMessage.cs" t="Include" />
+            <e p="UniWebViewNativeListener.cs" t="Include" />
+            <e p="UniWebViewSafeBrowingComponent.cs" t="Include" />
+            <e p="UniWebViewSafeBrowsing.cs" t="Include" />
+            <e p="UniWebViewStaticListener.cs" t="Include" />
+            <e p="UniWebViewToolbarPosition.cs" t="Include" />
+            <e p="UniWebViewTransitionEdge.cs" t="Include" />
+          </e>
+          <e p="UniWebView-CSharp.asmdef" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="OneSignal.UnityPackage.Attribution.csproj" t="IncludeRecursive" />
+      <e p="OneSignal.UnityPackage.Editor.csproj" t="IncludeRecursive" />
+      <e p="OneSignal.UnityPackage.Example.csproj" t="IncludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/Bin" t="ExcludeRecursive" />
+      <e p="un_01.sln" t="IncludeFlat" />
+      <e p="UniWebView-CSharp.csproj" t="IncludeRecursive" />
+      <e p="UniWebView-CSharp.Editor.csproj" t="IncludeRecursive" />
+    </e>
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_un_01.1843935083.00" t="ExcludeRecursive" />
+  </component>
+</project>

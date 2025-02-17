@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028301, g: 0.22571309, b: 0.30692127, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -530,7 +530,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -114.6}
+  m_AnchoredPosition: {x: 0, y: -44.3}
   m_SizeDelta: {x: 346, y: 54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &129937556
@@ -925,7 +925,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &724232675
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2072,53 +2072,157 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "At Bloon Mania, we are committed to protecting your privacy. This Privacy
-    Policy outlines how we collect, use, and safeguard your personal information
-    when you use our iOS app. By downloading or using Bloon Mania, you agree to the
-    terms described in this Privacy Policy.\L\n1. Information We Collect\na. Information
-    You Provide:\n\t\u2022\tAccount details such as your name, email address, or
-    other information you provide during registration or gameplay.\n\t\u2022\tFeedback,
-    messages, or other content you submit within the app.\nb. Automatically Collected
-    Information:\n\t\u2022\tDevice information, including device model, operating
-    system, app version, and unique device identifiers.\n\t\u2022\tUsage data, such
-    as gameplay statistics, session duration, and in-app interactions.\n\t\u2022\tDiagnostic
-    data, including crash reports and performance metrics, to improve the app\u2019s
-    functionality.\nc. Information from Third Parties:\n\t\u2022\tIf you connect
-    Bloon Mania to third-party platforms (e.g., social media or payment services),
-    we may collect authorized data from those platforms.\L\n2. How We Use Your Information\nThe
-    information collected is used to:\n\t\u2022\tOperate, maintain, and enhance the
-    functionality of Bloon Mania.\n\t\u2022\tProvide a personalized gaming experience
-    tailored to your preferences.\n\t\u2022\tAnalyze usage trends and optimize app
-    performance.\n\t\u2022\tRespond to inquiries, address issues, and provide customer
-    support.\n\t\u2022\tComply with legal requirements and ensure the security of
-    the app.\L\n3. How We Share Your Information\nWe do not sell your personal information.
-    However, we may share your data in the following situations:\n\t\u2022\tService
-    Providers: With trusted partners who assist with hosting, analytics, or technical
-    support.\n\t\u2022\tLegal Obligations: To comply with applicable laws, regulations,
-    or legal processes.\n\t\u2022\tBusiness Transfers: In the event of a merger,
-    acquisition, or sale, your data may be transferred to the new entity.\L\n4. Data
-    Security\nWe implement industry-standard measures to protect your personal information
-    from unauthorized access, loss, or misuse. While we strive to ensure data security,
-    no system is completely secure, and you acknowledge the inherent risks involved
-    in data transmission and storage.\L\n5. Data Retention\nWe retain your data only
-    as long as necessary to provide the app\u2019s services, comply with legal obligations,
-    or resolve disputes. If you wish to delete your data, please contact us.\L\n6.
-    Your Rights\nDepending on your location, you may have the right to:\n\t\u2022\tAccess,
-    update, or delete your personal information.\n\t\u2022\tObject to or restrict
-    certain data processing activities.\n\t\u2022\tWithdraw consent for data collection
-    and processing where applicable.\nTo exercise these rights, contact us.\L\n7.
-    Children\u2019s Privacy\nBloon Mania is not intended for children under the age
-    of 13. We do not knowingly collect personal information from children. If we
-    become aware of such data, we will promptly delete it.\L\n8. Third-Party Services\nBloon
-    Mania may include links to or integrations with third-party services. We are
-    not responsible for the privacy practices of these services and encourage you
-    to review their privacy policies.\L\n9. Changes to This Privacy Policy\nWe may
-    update this Privacy Policy from time to time to reflect changes in our practices
-    or for legal, operational, or regulatory reasons. Any significant updates will
-    be communicated through the app or other appropriate channels.\L\n10. Contact
-    Us\nIf you have any questions or concerns about this Privacy Policy, please contact
-    us.\L\LBy using Bloon Mania, you acknowledge that you have read, understood,
-    and agreed to this Privacy Policy. Thank you for trusting us with your data!"
+  m_Text: "Privacy Policy\nLast updated: February 05, 2025\n\nThis Privacy Policy
+    describes Our policies and procedures on the collection, use and disclosure of
+    Your information when You use the Service and tells You about Your privacy rights
+    and how the law protects You.\n\nWe use Your Personal data to provide and improve
+    the Service. By using the Service, You agree to the collection and use of information
+    in accordance with this Privacy Policy. This Privacy Policy has been created
+    with the help of the Privacy Policy Generator.\n\nInterpretation and Definitions\nInterpretation\nThe
+    words of which the initial letter is capitalized have meanings defined under
+    the following conditions. The following definitions shall have the same meaning
+    regardless of whether they appear in singular or in plural.\n\nDefinitions\nFor
+    the purposes of this Privacy Policy:\n\nAccount means a unique account created
+    for You to access our Service or parts of our Service.\n\nAffiliate means an
+    entity that controls, is controlled by or is under common control with a party,
+    where \"control\" means ownership of 50% or more of the shares, equity interest
+    or other securities entitled to vote for election of directors or other managing
+    authority.\n\nApplication refers to Balloon Boom, the software program provided
+    by the Company.\n\nCompany (referred to as either \"the Company\", \"We\", \"Us\"
+    or \"Our\" in this Agreement) refers to Balloon Boom.\n\nCountry refers to: Egypt\n\nDevice
+    means any device that can access the Service such as a computer, a cellphone
+    or a digital tablet.\n\nPersonal Data is any information that relates to an identified
+    or identifiable individual.\n\nService refers to the Application.\n\nService
+    Provider means any natural or legal person who processes the data on behalf of
+    the Company. It refers to third-party companies or individuals employed by the
+    Company to facilitate the Service, to provide the Service on behalf of the Company,
+    to perform services related to the Service or to assist the Company in analyzing
+    how the Service is used.\n\nUsage Data refers to data collected automatically,
+    either generated by the use of the Service or from the Service infrastructure
+    itself (for example, the duration of a page visit).\n\nYou means the individual
+    accessing or using the Service, or the company, or other legal entity on behalf
+    of which such individual is accessing or using the Service, as applicable.\n\nCollecting
+    and Using Your Personal Data\nTypes of Data Collected\nPersonal Data\nWhile using
+    Our Service, We may ask You to provide Us with certain personally identifiable
+    information that can be used to contact or identify You. Personally identifiable
+    information may include, but is not limited to:\n\nUsage Data\nUsage Data\nUsage
+    Data is collected automatically when using the Service.\n\nUsage Data may include
+    information such as Your Device's Internet Protocol address (e.g. IP address),
+    browser type, browser version, the pages of our Service that You visit, the time
+    and date of Your visit, the time spent on those pages, unique device identifiers
+    and other diagnostic data.\n\nWhen You access the Service by or through a mobile
+    device, We may collect certain information automatically, including, but not
+    limited to, the type of mobile device You use, Your mobile device unique ID,
+    the IP address of Your mobile device, Your mobile operating system, the type
+    of mobile Internet browser You use, unique device identifiers and other diagnostic
+    data.\n\nWe may also collect information that Your browser sends whenever You
+    visit our Service or when You access the Service by or through a mobile device.\n\nUse
+    of Your Personal Data\nThe Company may use Personal Data for the following purposes:\n\nTo
+    provide and maintain our Service, including to monitor the usage of our Service.\n\nTo
+    manage Your Account: to manage Your registration as a user of the Service. The
+    Personal Data You provide can give You access to different functionalities of
+    the Service that are available to You as a registered user.\n\nFor the performance
+    of a contract: the development, compliance and undertaking of the purchase contract
+    for the products, items or services You have purchased or of any other contract
+    with Us through the Service.\n\nTo contact You: To contact You by email, telephone
+    calls, SMS, or other equivalent forms of electronic communication, such as a
+    mobile application's push notifications regarding updates or informative communications
+    related to the functionalities, products or contracted services, including the
+    security updates, when necessary or reasonable for their implementation.\n\nTo
+    provide You with news, special offers and general information about other goods,
+    services and events which we offer that are similar to those that you have already
+    purchased or enquired about unless You have opted not to receive such information.\n\nTo
+    manage Your requests: To attend and manage Your requests to Us.\n\nFor business
+    transfers: We may use Your information to evaluate or conduct a merger, divestiture,
+    restructuring, reorganization, dissolution, or other sale or transfer of some
+    or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation,
+    or similar proceeding, in which Personal Data held by Us about our Service users
+    is among the assets transferred.\n\nFor other purposes: We may use Your information
+    for other purposes, such as data analysis, identifying usage trends, determining
+    the effectiveness of our promotional campaigns and to evaluate and improve our
+    Service, products, services, marketing and your experience.\n\nWe may share Your
+    personal information in the following situations:\n\nWith Service Providers:
+    We may share Your personal information with Service Providers to monitor and
+    analyze the use of our Service, to contact You.\nFor business transfers: We may
+    share or transfer Your personal information in connection with, or during negotiations
+    of, any merger, sale of Company assets, financing, or acquisition of all or a
+    portion of Our business to another company.\nWith Affiliates: We may share Your
+    information with Our affiliates, in which case we will require those affiliates
+    to honor this Privacy Policy. Affiliates include Our parent company and any other
+    subsidiaries, joint venture partners or other companies that We control or that
+    are under common control with Us.\nWith business partners: We may share Your
+    information with Our business partners to offer You certain products, services
+    or promotions.\nWith other users: when You share personal information or otherwise
+    interact in the public areas with other users, such information may be viewed
+    by all users and may be publicly distributed outside.\nWith Your consent: We
+    may disclose Your personal information for any other purpose with Your consent.\nRetention
+    of Your Personal Data\nThe Company will retain Your Personal Data only for as
+    long as is necessary for the purposes set out in this Privacy Policy. We will
+    retain and use Your Personal Data to the extent necessary to comply with our
+    legal obligations (for example, if we are required to retain your data to comply
+    with applicable laws), resolve disputes, and enforce our legal agreements and
+    policies.\n\nThe Company will also retain Usage Data for internal analysis purposes.
+    Usage Data is generally retained for a shorter period of time, except when this
+    data is used to strengthen the security or to improve the functionality of Our
+    Service, or We are legally obligated to retain this data for longer time periods.\n\nTransfer
+    of Your Personal Data\nYour information, including Personal Data, is processed
+    at the Company's operating offices and in any other places where the parties
+    involved in the processing are located. It means that this information may be
+    transferred to \u2014 and maintained on \u2014 computers located outside of Your
+    state, province, country or other governmental jurisdiction where the data protection
+    laws may differ than those from Your jurisdiction.\n\nYour consent to this Privacy
+    Policy followed by Your submission of such information represents Your agreement
+    to that transfer.\n\nThe Company will take all steps reasonably necessary to
+    ensure that Your data is treated securely and in accordance with this Privacy
+    Policy and no transfer of Your Personal Data will take place to an organization
+    or a country unless there are adequate controls in place including the security
+    of Your data and other personal information.\n\nDelete Your Personal Data\nYou
+    have the right to delete or request that We assist in deleting the Personal Data
+    that We have collected about You.\n\nOur Service may give You the ability to
+    delete certain information about You from within the Service.\n\nYou may update,
+    amend, or delete Your information at any time by signing in to Your Account,
+    if you have one, and visiting the account settings section that allows you to
+    manage Your personal information. You may also contact Us to request access to,
+    correct, or delete any personal information that You have provided to Us.\n\nPlease
+    note, however, that We may need to retain certain information when we have a
+    legal obligation or lawful basis to do so.\n\nDisclosure of Your Personal Data\nBusiness
+    Transactions\nIf the Company is involved in a merger, acquisition or asset sale,
+    Your Personal Data may be transferred. We will provide notice before Your Personal
+    Data is transferred and becomes subject to a different Privacy Policy.\n\nLaw
+    enforcement\nUnder certain circumstances, the Company may be required to disclose
+    Your Personal Data if required to do so by law or in response to valid requests
+    by public authorities (e.g. a court or a government agency).\n\nOther legal requirements\nThe
+    Company may disclose Your Personal Data in the good faith belief that such action
+    is necessary to:\n\nComply with a legal obligation\nProtect and defend the rights
+    or property of the Company\nPrevent or investigate possible wrongdoing in connection
+    with the Service\nProtect the personal safety of Users of the Service or the
+    public\nProtect against legal liability\nSecurity of Your Personal Data\nThe
+    security of Your Personal Data is important to Us, but remember that no method
+    of transmission over the Internet, or method of electronic storage is 100% secure.
+    While We strive to use commercially acceptable means to protect Your Personal
+    Data, We cannot guarantee its absolute security.\n\nChildren's Privacy\nOur Service
+    does not address anyone under the age of 13. We do not knowingly collect personally
+    identifiable information from anyone under the age of 13. If You are a parent
+    or guardian and You are aware that Your child has provided Us with Personal Data,
+    please contact Us. If We become aware that We have collected Personal Data from
+    anyone under the age of 13 without verification of parental consent, We take
+    steps to remove that information from Our servers.\n\nIf We need to rely on consent
+    as a legal basis for processing Your information and Your country requires consent
+    from a parent, We may require Your parent's consent before We collect and use
+    that information.\n\nLinks to Other Websites\nOur Service may contain links to
+    other websites that are not operated by Us. If You click on a third party link,
+    You will be directed to that third party's site. We strongly advise You to review
+    the Privacy Policy of every site You visit.\n\nWe have no control over and assume
+    no responsibility for the content, privacy policies or practices of any third
+    party sites or services.\n\nChanges to this Privacy Policy\nWe may update Our
+    Privacy Policy from time to time. We will notify You of any changes by posting
+    the new Privacy Policy on this page.\n\nWe will let You know via email and/or
+    a prominent notice on Our Service, prior to the change becoming effective and
+    update the \"Last updated\" date at the top of this Privacy Policy.\n\nYou are
+    advised to review this Privacy Policy periodically for any changes. Changes to
+    this Privacy Policy are effective when they are posted on this page.\n\nContact
+    Us\nIf you have any questions about this Privacy Policy, You can contact us:\n\nBy
+    email: gabubakirov911@gmail.com"
 --- !u!222 &1493024179
 CanvasRenderer:
   m_ObjectHideFlags: 0

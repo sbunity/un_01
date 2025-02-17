@@ -1,0 +1,63 @@
+name: Build for Android (Get Artifact)
+
+on: [workflow_dispatch]
+
+jobs:
+  buildForAndroidPlatform:
+    name: Build for ${{ matrix.targetPlatform }} on ${{ matrix.unityVersion }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        unity-version:
+          - 2021.3.22f1
+        os:
+          - ubuntu-latest
+        targetPlatform:
+          - Android # Build an Android .apk standalone app.
+        sdkVersion:
+          - AndroidApiLevel34
+    steps:
+      ###########################
+      #          Disk           #
+      ###########################
+      - uses: jlumbroso/free-disk-space@v1.3.1
+
+      ###########################
+      #        Checkout         #
+      ###########################
+      - uses: actions/checkout@v4
+
+      ###########################
+      #         Cache           #
+      ###########################
+      - uses: actions/cache@v3
+        with:
+          path: Library
+          key: Library-${{ matrix.targetPlatform }}
+
+      ###########################
+      #          Build          #
+      ###########################
+      - uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          targetPlatform: ${{ matrix.targetPlatform }}
+          androidExportType: androidAppBundle
+          androidKeystoreName: user # This file won't exist, but this property needs to exist.
+          androidKeystoreBase64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          androidKeystorePass: ${{ secrets.ANDROID_KEYSTORE_PASS }}
+          androidKeyaliasName: ${{ secrets.ANDROID_KEYALIAS_NAME }}
+          androidKeyaliasPass: ${{ secrets.ANDROID_KEYALIAS_PASS }}
+          androidTargetSdkVersion: ${{ matrix.sdkVersion }}
+   
+      ###########################
+      #     Upload artifact     #
+      ###########################
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Build-${{ matrix.targetPlatform }}
+          path: build/${{ matrix.targetPlatform }}

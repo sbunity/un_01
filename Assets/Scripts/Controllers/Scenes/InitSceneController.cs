@@ -13,6 +13,8 @@ namespace Controllers.Scenes
 
         private void Awake()
         {
+            Screen.orientation = ScreenOrientation.LandscapeLeft;
+        
             _model = new OnboardingModel();
         }
 

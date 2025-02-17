@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "739395300107",
+    "project_id": "un01-87edf",
+    "storage_bucket": "un01-87edf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739395300107:android:9d6f8023b56f5f3c90500e",
+        "android_client_info": {
+          "package_name": "com.whitegoldboom.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhd4_j1piXtiR_gqXi0Q-pnrHDe5dLH-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
