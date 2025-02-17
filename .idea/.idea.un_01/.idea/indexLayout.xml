@@ -19,11 +19,15 @@
     </explicitIncludes>
     <explicitExcludes>
       <Path>.git</Path>
+      <Path>.github</Path>
       <Path>.idea</Path>
+      <Path>Keystore</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Temp</Path>
+      <Path>Test_BackUpThisFolder_ButDontShipItWithYourGame</Path>
       <Path>UserSettings</Path>
+      <Path>fastlane</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>

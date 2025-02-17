@@ -151,6 +151,27 @@
           </e>
         </e>
         <e p="Fonts" t="Include" />
+        <e p="GeneratedLocalRepo" t="Include">
+          <e p="Firebase" t="Include">
+            <e p="m2repository" t="Include">
+              <e p="com" t="Include">
+                <e p="google" t="Include">
+                  <e p="Firebase" t="Include">
+                    <e p="firebase-analytics-unity" t="Include">
+                      <e p="12.3.0" t="Include" />
+                    </e>
+                    <e p="firebase-app-unity" t="Include">
+                      <e p="12.3.0" t="Include" />
+                    </e>
+                    <e p="firebase-config-unity" t="Include">
+                      <e p="12.3.0" t="Include" />
+                    </e>
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="google-services.json" t="Include" />
         <e p="Icons" t="Include" />
         <e p="Names" t="Include">
@@ -194,6 +215,7 @@
         </e>
         <e p="Plugins" t="Include">
           <e p="Android" t="Include">
+            <e p="AndroidManifest.xml" t="Include" />
             <e p="FirebaseApp.androidlib" t="Include">
               <e p="AndroidManifest.xml" t="Include" />
               <e p="res" t="Include">
